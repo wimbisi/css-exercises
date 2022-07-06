@@ -6,12 +6,18 @@ body {
   margin: 0;
   background: #eee;
   font-family: Besley, serif;
+  
 }
 
 .header {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  column-gap: 16px
+  
 }
 
 .profile-image {
@@ -35,14 +41,22 @@ button {
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
+  margin-left: auto;
+
 }
 
 a {
   /* this removes the line under our links */
   text-decoration: none;
   color: rebeccapurple;
+  
 }
 
 ul {
   list-style-type: none;
+  display: flex;
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+  
 }
